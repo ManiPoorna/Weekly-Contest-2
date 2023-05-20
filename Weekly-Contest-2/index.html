@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./icon.jpeg">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <title>Books & Registration Form</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="link" href="#books">Books</a>
+      <a class="link" href="#register">Register</a>
+    </nav>
+    <section class="books-table">
+      <h2 class="books" id="books">Books</h2>
+      <table>
+        <tr>
+          <th>Book ID</th>
+          <th class="row">Title</th>
+          <th>Auther</th>
+          <th>Genre</th>
+          <th>Availability</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td class="row">
+            <table>
+              <a href="#">Nineteen Eighty-Four</a>
+              <tr>
+                <td>Publication : 1949</td>
+              </tr>
+              <tr>
+                <td>Page count : 230</td>
+              </tr>
+              <tr>
+                <td>ISBN : 9659659891035</td>
+              </tr>
+            </table>
+          </td>
+          <td>George Orwell</td>
+          <td>
+            Science fiction, Social science fiction, Dystopian Fiction,
+            Political fiction
+          </td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="row">
+            <table>
+              <a href="#" >To Kill a Mockingbird</a>              
+              <tr>
+                <td>Publication : 1960</td>
+              </tr>
+              <tr>
+                <td>Page count : 250</td>
+              </tr>
+              <tr>
+                <td>ISBN : 9780060885762</td>
+              </tr>
+            </table>
+          </td>
+          <td>Harper Lee</td>
+          <td>Novel, Thriller, Legal Story, Southern Gothic</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td class="row">
+            <table>
+              <a href="#">Wuthering Heights</a>              
+              <tr>
+                <td>Publication : 1847</td>
+              </tr>
+              <tr>
+                <td>Page count : 266</td>
+              </tr>
+              <tr>
+                <td>ISBN : 9783844907179</td>
+              </tr>
+            </table>
+          </td>
+          <td>Emily Brontë</td>
+          <td>Novel, Gothic fiction, Romance novel, Tragedy</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td class="row">
+            <table>
+              <a href="#">The Alchemist</a>
+              <tr>
+                <td>Publication : 1988</td>
+              </tr>
+              <tr>
+                <td>Page count : 258</td>
+              </tr>
+              <tr>
+                <td>ISBN : 9779256791035</td>
+              </tr>
+            </table>
+          </td>
+          <td>Paulo Coelho</td>
+          <td>Novel, Drama, Quest, Fantasy Fiction, Adventure fiction</td>
+          <td>Available</td>
+        </tr>
+        <tr>
+          <td class="row">5</td>
+          <td>
+            <table>
+              <a  href="#">The Great Gatsby</a>
+              <tr>
+                <td>Publication : 1925</td>
+              </tr>
+              <tr>
+                <td>Page count : 200</td>
+              </tr>
+              <tr>
+                <td>ISBN : 9780333791035</td>
+              </tr>
+            </table>
+          </td>
+          <td>F. Scott Fitzgerald</td>
+          <td>Novel, Fiction, Tragedy</td>
+          <td>Available</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="form">
+      <h2 class="register" id="register">Register</h2>
+      <form action="#" method="POST">
+        <div class="form-item">
+          <label for="f_name">FIRST NAME :</label><br />
+          <input
+            type="text"
+            required
+            id="f_name"
+            placeholder="Enter Your First Name"
+          />
+        </div>
+        <div class="form-item">
+          <label for="l_name">LAST NAME :</label><br />
+          <input
+            type="text"
+            required
+            id="l_name"
+            placeholder="Enter Your Last Name"
+          />
+        </div>
+        <div class="form-item">
+          <label for="email">EMAIL :</label><br />
+          <input
+            type="email"
+            required
+            id="emial"
+            placeholder="Enter Your Email"
+          />
+        </div>
+        <div class="form-item">
+          <label for="dob">DTAE OF BIRTH :</label><br />
+          <input type="date" required id="dob" placeholder="Date Of Birth" />
+        </div>
+        <div class="form-item">
+          <label for="age">AGE :</label><br />
+          <input
+            type="number"
+            min="5"
+            max="100"
+            id="age"
+            placeholder="Enter your Age"
+            required
+          />
+        </div>
+        <div class="form-item">
+          <label for="password">PASSWORD :</label><br />
+          <input
+            type="password"
+            id="passoword"
+            required
+            placeholder="Create a Password"
+          />
+        </div>
+        <div class="form-item">
+          <label for="confirm_password">CONFIRM PASSWORD :</label><br />
+          <input
+            type="password"
+            id="confirm_password"
+            required
+            placeholder="Confirm Your Password"
+          />
+        </div>
+        <div class="form-item">
+          <button class="btn" type="submit">REGISTER</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

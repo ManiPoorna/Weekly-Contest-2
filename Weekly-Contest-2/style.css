@@ -1,0 +1,116 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    margin-left : 0px;
+    margin-right : 0px;
+    margin-top : 48px;
+    text-align : center;
+    background-color: rgb(227, 224, 224);
+}
+.navbar{
+    position : fixed;
+    width : 100%;
+    top : 0px;
+    padding : 15px;
+    background : rgb(65, 62, 37);
+}
+a.link{
+    border : 3px solid rgb(62, 110, 111);
+    border-radius : 10px;
+    padding : 9px;
+    text-decoration: none;
+    color : white;
+}
+a.link:hover{
+    padding : 7px;
+    background-color: white;
+    color:black;
+}
+.books{
+    font-size : 30px;
+    text-align : left;
+    margin-left: 35px;
+    padding-top: 33px;
+}
+table,th,td{
+    padding : 5px;
+    text-align :  center;
+    border:2px solid black;
+    border-collapse: collapse;
+    border-radius : 10px;
+}
+tr{
+    border : 2px solid black;
+}
+table{
+    width : 92%;
+    margin-left : auto;
+    margin-right: auto;
+    border-radius : 10px;
+}
+.books-table{
+    border-radius: 15px;
+    margin-top: 88px;
+    margin-left : auto;
+    margin-right: auto;
+    height : 158vh;
+    width : 55%;
+    background-color : white;
+    border: 1px solid;
+    box-shadow: 0px 0px 4px 1px;
+}
+.register{
+    font-size : 30px;
+    margin-left: 35px;
+}
+.form{
+    padding-top: 5px;
+    text-align : left;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left : auto;
+    margin-right: auto;
+    height : 105vh;
+    width : 55%;  
+    background-color: white; 
+    font-size : 20px;
+    box-shadow: 0px 0px 10px 1px;
+}
+input{
+    width : 95%;
+    height : 25px;
+    outline :  black;
+    border-radius: 3px;
+}
+input:focus{
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.form-item{
+    padding-bottom: 18px;
+    margin-left: 35px;
+}
+.btn{
+    background-color: black;
+    border-radius: 3px;
+    color : white;
+    margin-left: 0px;
+    margin-top : 10px;
+    width: 96%;
+    height: 32px;
+    font-size: 19px;
+}
+.btn:hover{
+    font-size: 21px;
+    background-color: rgb(237, 228, 228);
+    color : black;
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;   
+}
+table{
+    border : 1px solid black;
+    border-radius : 10px;
+}
