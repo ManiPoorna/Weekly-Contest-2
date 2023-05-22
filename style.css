@@ -4,12 +4,12 @@
 body{
     margin-left : 0px;
     margin-right : 0px;
-    margin-top : 48px;
+    /* margin-top : 48px; */
     text-align : center;
     background-color: rgb(227, 224, 224);
 }
 .navbar{
-    position : fixed;
+    position : sticky;
     width : 100%;
     top : 0px;
     padding : 15px;
@@ -51,11 +51,11 @@ table{
 }
 .books-table{
     border-radius: 15px;
-    margin-top: 88px;
+    margin-top: 45px;
     margin-left : auto;
     margin-right: auto;
-    height : 158vh;
-    width : 55%;
+    height : 149vh;
+    width : 65%;
     background-color : white;
     border: 1px solid;
     box-shadow: 0px 0px 4px 1px;
@@ -72,10 +72,13 @@ table{
     margin-left : auto;
     margin-right: auto;
     height : 105vh;
-    width : 55%;  
+    width : 65%;  
     background-color: white; 
     font-size : 20px;
     box-shadow: 0px 0px 10px 1px;
+}
+.row table{
+    margin : 10px 5px;
 }
 input{
     width : 95%;
@@ -108,7 +111,7 @@ input:focus{
     cursor: pointer;
 }
 html{
-    scroll-behavior: smooth;   
+    scroll-behavior:smooth;   
 }
 table{
     border : 1px solid black;
